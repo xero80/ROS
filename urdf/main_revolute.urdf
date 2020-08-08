@@ -314,7 +314,7 @@
     <child link="thumb_01"/>
     <origin rpy="0 0 0" xyz="0.3 0.0 -0.1"/>
     <axis xyz="0 1 0"/>
-    <limit effort ="1000.0" lower="-1.0" upper="1.0" velocity="0.5"/>
+    <limit effort ="1000.0" lower="-2.0" upper="0.05" velocity="0.5"/>
   </joint>
 
   <link name="thumb_02">
@@ -332,7 +332,7 @@
     <child link="thumb_02"/>
     <origin rpy="0 0 0" xyz="0.15 0.0 0.15"/>
     <axis xyz="0 1 0"/>
-    <limit effort ="1000.0" lower="-1.0" upper="1.0" velocity="0.5"/>
+    <limit effort ="1000.0" lower="-1.0" upper="0.05" velocity="0.5"/>
   </joint>
 
   <link name="head_05">
